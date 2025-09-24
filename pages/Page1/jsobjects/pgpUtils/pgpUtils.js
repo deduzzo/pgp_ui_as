@@ -206,6 +206,7 @@ Cifratura supportata: ${encryptSupport}`;
 
 		// 4) Download affidabile
 		const outName = `${fileObj.name}.${asciiArmor ? "asc" : "pgp"}`;
+		storeValue("txt_info_key","✅ File cifrato correttamente!");
 		if (asciiArmor) {
 			// stringa armor -> passala direttamente
 			return download(encrypted, outName, "application/pgp-encrypted");
@@ -213,7 +214,6 @@ Cifratura supportata: ${encryptSupport}`;
 			// Uint8Array -> data URL base64
 			const b64 = this._uint8ToBase64(encrypted);
 			const dataUrl = `data:application/pgp-encrypted;base64,${b64}`;
-			storeValue("txt_info_key","info..");
 			return download(dataUrl, outName, "application/pgp-encrypted");
 		}
 	}
