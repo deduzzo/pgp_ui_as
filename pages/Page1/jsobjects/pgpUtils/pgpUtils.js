@@ -1,4 +1,7 @@
 export default {
+	init() {
+		storeValue("txt_info_key","info..");
+	},
 	/* ============ Utils ============ */
 
 	_extractBase64(s) {
