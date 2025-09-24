@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "1.5rem",
   "borderWidth": "1",
-  "bottomRow": 53,
+  "bottomRow": 50,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -62,7 +62,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "dbf8ptm7fc",
-  "leftColumn": 21,
+  "leftColumn": 18,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -77,9 +77,9 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 51,
+  "rightColumn": 48,
   "shouldScrollContents": true,
-  "topRow": 3,
+  "topRow": 0,
   "type": "FORM_WIDGET",
   "widgetId": "3ygrvka1ql",
   "widgetName": "formCifratura"
